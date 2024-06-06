@@ -1,5 +1,5 @@
 import imageio
-from datetime import datetime
+from datetime import datetime, time
 from PIL import Image, ImageDraw, ImageFont
 
 # Função para imprimir texto de forma animada no terminal
