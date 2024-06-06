@@ -1,6 +1,6 @@
 # Hello, I'm Sam 👋
 
-![Banner](https://i.imgur.com/banner.jpg?size=xl) <!-- Replace with the URL of your banner image or remove this line -->
+![Banner](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.n48b5BvwPr7y3zvXB-t0FwHaBh%26pid%3DApi&f=1&ipt=b576bbb379199311d6a7105e974df774658feac422d79ece329cabad74836326&ipo=images)
 
 ## About Me
 
