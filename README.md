@@ -1,7 +1,5 @@
 # Hello, I'm Sam 👋
 
-![Banner](https://github.com/SamDevTG/SamDevTG/assets/61922082/16b7a30d-ecc4-454b-a814-cd40a72d62b0)
-
 ## About Me
 
 I am an 18-year-old FullStack developer passionate about technology and innovation. Currently, I am interning at Winestone, where I have the opportunity to apply and expand my knowledge in various technologies.
@@ -40,17 +38,13 @@ I am an 18-year-old FullStack developer passionate about technology and innovati
 ## 📫 Contact
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/your-profile)
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your-email@gmail.com)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:samanthafontianha@gmail.com)
 
 ## 💬 About Me
 
 I am a trans programmer passionate about technology. I believe in the power of diversity and inclusion in the IT field. I am always looking to learn and grow, both professionally and personally. If you are also passionate about technology or just want to chat, feel free to contact me!
 
-![Blahaj](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ffraghero.com%2Fwp-content%2Fuploads%2F2022%2F03%2Fb8a532cc-cover3.jpg&f=1&nofb=1&ipt=37989ddbd92656b5330a6424225450a326da546f43275e138d0bc2b4ef0df19b&ipo=images) <!-- Replace with the URL of your Blahaj image or remove this line -->
-
----
-
-![GitHub Readme Terminal](./output.gif) <!-- This line will be automatically updated by the GitHub Action -->
+![GitHub Readme Terminal](./screenshot.png) <!-- This line will be automatically updated by the GitHub Action -->
 
 ⭐️ If you found this interesting, leave a star on my repositories!
 
