@@ -41,7 +41,7 @@ Sou uma programadora FullStack com 18 anos, apaixonada por tecnologia e inovaç�
 
 Sou uma programadora trans apaixonada por tecnologia. Acredito no poder da diversidade e inclusão na área de TI. Sempre busco aprender e crescer, tanto profissionalmente quanto pessoalmente. Se você também é apaixonado por tecnologia ou apenas quer conversar, sinta-se à vontade para me contatar!
 
-![Blahaj](https://example.com/blahaj.jpg) 
+![Blahaj](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.kym-cdn.com%2Fentries%2Ficons%2Foriginal%2F000%2F038%2F420%2Fcover3.jpg&f=1&nofb=1&ipt=00d56ef3b64ee5b6255423462398b4c6f97c68cf7a92ab22043e9f59f637b892&ipo=images) 
 
 ---
 
