@@ -3,26 +3,36 @@ using System.Drawing;
 
 class Program
 {
-    static void Main()
+    static void Main(string[] args)
     {
+        // Image settings
         int width = 800;
         int height = 200;
-        string text = "Olá, sou [Seu Nome] 👋";
-        string filePath = "output.png";
+        string outputPath = "output.png";
 
+        // Create a new image
         using (Bitmap bitmap = new Bitmap(width, height))
         {
             using (Graphics graphics = Graphics.FromImage(bitmap))
             {
+                // Set background color
                 graphics.Clear(Color.White);
-                Font font = new Font("Arial", 40, FontStyle.Bold);
+
+                // Set fonts
+                Font font = new Font("Arial", 24, FontStyle.Bold);
                 Brush brush = Brushes.Black;
-                PointF point = new PointF(10, 50);
 
+                // Add text to image
+                string text = "Automatic README Update";
+                SizeF textSize = graphics.MeasureString(text, font);
+                PointF point = new PointF((width - textSize.Width) / 2, (height - textSize.Height) / 2);
                 graphics.DrawString(text, font, brush, point);
-            }
 
-            bitmap.Save(filePath);
+                // Save the image
+                bitmap.Save(outputPath);
+            }
         }
+
+        Console.WriteLine($"Image saved at: {outputPath}");
     }
 }
