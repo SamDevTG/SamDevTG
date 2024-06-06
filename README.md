@@ -44,7 +44,7 @@ I am an 18-year-old FullStack developer passionate about technology and innovati
 
 I am a trans programmer passionate about technology. I believe in the power of diversity and inclusion in the IT field. I am always looking to learn and grow, both professionally and personally. If you are also passionate about technology or just want to chat, feel free to contact me!
 
-![GitHub Readme Terminal](./screenshot.png) <!-- This line will be automatically updated by the GitHub Action -->
+![GitHub Readme Terminal](./output.gif) <!-- This line will be automatically updated by the GitHub Action -->
 
 ⭐️ If you found this interesting, leave a star on my repositories!
 
