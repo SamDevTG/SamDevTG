@@ -1,6 +1,6 @@
 # Hello, I'm Sam 👋
 
-![Banner](https://github.com/SamDevTG/SamDevTG/assets/61922082/ca999873-0efb-4f46-af77-95c81a2fa0ad)
+![Banner](https://github.com/SamDevTG/SamDevTG/assets/61922082/16b7a30d-ecc4-454b-a814-cd40a72d62b0)
 
 ## About Me
 
@@ -56,4 +56,4 @@ I am a trans programmer passionate about technology. I believe in the power of d
 
 ## 🚀 Automatic README Update
 
-This README is automatically updated daily with the latest statistics from my GitHub profile.
+This README is automatically updated daily
