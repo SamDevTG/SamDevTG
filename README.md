@@ -1,6 +1,6 @@
 # Hello, I'm Sam 👋
 
-![Banner](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.n48b5BvwPr7y3zvXB-t0FwHaBh%26pid%3DApi&f=1&ipt=b576bbb379199311d6a7105e974df774658feac422d79ece329cabad74836326&ipo=images)
+![Banner](https://github.com/SamDevTG/SamDevTG/assets/61922082/ca999873-0efb-4f46-af77-95c81a2fa0ad)
 
 ## About Me
 
