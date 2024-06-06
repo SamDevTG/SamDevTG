@@ -50,10 +50,10 @@ I am a trans programmer passionate about technology. I believe in the power of d
 
 ---
 
-![GitHub Readme Terminal](./output.png) <!-- This line will be automatically updated by the GitHub Action -->
+![GitHub Readme Terminal](./output.gif) <!-- This line will be automatically updated by the GitHub Action -->
 
 ⭐️ If you found this interesting, leave a star on my repositories!
 
 ## 🚀 Automatic README Update
 
-This README is automatically updated daily
+This README is automatically updated daily with the latest statistics from my GitHub profile.

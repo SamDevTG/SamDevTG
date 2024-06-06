@@ -1,6 +1,5 @@
 import imageio
 import os
-import time
 from PIL import Image, ImageDraw, ImageFont
 
 # Função para desenhar texto no terminal
@@ -8,7 +7,7 @@ def draw_text(draw, text, position, font, color=(255, 255, 255)):
     draw.text(position, text, font=font, fill=color)
 
 # Função para criar uma nova imagem para cada frame do GIF
-def create_frame(text_lines, image, font, frame_num, total_frames):
+def create_frame(text_lines, image, font):
     frame = Image.new('RGB', (800, 400), color=(0, 0, 0))
     draw = ImageDraw.Draw(frame)
 
@@ -25,7 +24,7 @@ def create_frame(text_lines, image, font, frame_num, total_frames):
 # Configuração
 frames = []
 font = ImageFont.truetype("arial.ttf", 20)
-cat_image_path = "trans_cat.png"
+cat_image_path = "Scripts/trans_cat.png"
 cat_image = Image.open(cat_image_path).resize((200, 200))
 total_frames = 30
 
@@ -43,7 +42,7 @@ text = [
 # Gerar frames para o GIF
 for frame_num in range(total_frames):
     frame_text = text[:frame_num // 5]
-    frame = create_frame(frame_text, cat_image, font, frame_num, total_frames)
+    frame = create_frame(frame_text, cat_image, font)
     frames.append(frame)
 
 # Salvar GIF
