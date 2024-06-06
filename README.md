@@ -1,27 +1,48 @@
-<div id="header" align="center">
-  <img src="[https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif](https://giphy.com/embed/3oKIPnAiaMCws8nOsE)" width="100"/>
-</div>
+# Olá, sou [Seu Nome] 👋
 
+![Banner](https://example.com/banner.jpg) <!-- Substitua pelo URL da sua imagem de banner ou remova esta linha -->
 
-<div id="badges">
-  <a href="your-linkedin-URL">
-    <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
-  </a>
+## Sobre Mim
 
-  <img src="https://komarev.com/ghpvc/?username=SamDevTG&style=flat-square&color=blue" alt=""/>
+Sou uma programadora FullStack com 18 anos, apaixonada por tecnologia e inovação. Atualmente, estou estagiando na Winestone, onde tenho a oportunidade de aplicar e expandir meus conhecimentos em várias tecnologias.
 
-  <h1>
-  Welcome to my Safe Space
-</h1>
+- **Nome:** [Seu Nome]
+- **Idade:** 18 anos
+- **Pronome:** [Seu Pronome]
+- **Empresa:** Winestone
+- **Cargo:** Estagiária
 
+## 🛠️ Tecnologias e Ferramentas
 
-### :hammer_and_wrench: Languages and Tools :
-<div>
-  <img src="https://github.com/devicons/devicon/blob/master/icons/csharp/csharp-original.svg" title="C#" alt="C#" width="40" height="40"/>&nbsp;
-    <img src="https://github.com/devicons/devicon/blob/master/icons/c/c-original.svg" title="C" alt="C" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-original.svg" title="HTML5" alt="HTML" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-plain-wordmark.svg"  title="CSS3" alt="CSS" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" title="JavaScript" alt="JavaScript" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/mysql/mysql-original-wordmark.svg" title="MySQL"  alt="MySQL" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/nodejs/nodejs-original-wordmark.svg" title="NodeJS" alt="NodeJS" width="40" height="40"/>&nbsp;
-</div>
+![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
+![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
+![MVC](https://img.shields.io/badge/MVC-007396?style=for-the-badge&logo=java&logoColor=white)
+![API REST](https://img.shields.io/badge/API_REST-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
+![Android Studio](https://img.shields.io/badge/Android_Studio-3DDC84?style=for-the-badge&logo=android-studio&logoColor=white)
+![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white)
+
+## 🐾 Interesses
+
+- Amo gatos 🐱
+- Estudar novas tecnologias e linguagens de programação 📚
+- Apaixonada por Blahaj 🦈
+- Tecnologia e inovação 🚀
+
+## 📫 Contato
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/seu-perfil)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:seu-email@gmail.com)
+
+## 💬 Sobre Mim
+
+Sou uma programadora trans apaixonada por tecnologia. Acredito no poder da diversidade e inclusão na área de TI. Sempre busco aprender e crescer, tanto profissionalmente quanto pessoalmente. Se você também é apaixonado por tecnologia ou apenas quer conversar, sinta-se à vontade para me contatar!
+
+![Blahaj]([https://example.com/blahaj.jpg](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.themarysue.com%2Fwp-content%2Fuploads%2F2023%2F01%2Fblahaj-plushie-ikea-trans-canada.jpg&f=1&nofb=1&ipt=9c9b9abe6ba17a95d22d0aa151065ac71d14c615c704a727849508273c4e806b&ipo=images)) <!-- Substitua pelo URL da sua imagem do Blahaj ou remova esta linha -->
+
+---
+
+⭐️ Deixe uma estrela nos meus repositórios se você achou interessante!
