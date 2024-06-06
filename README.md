@@ -1,4 +1,4 @@
-# Olá, sou [Seu Nome] 👋
+# Olá, sou Sam 👋
 
 ![Banner](https://example.com/banner.jpg) <!-- Substitua pelo URL da sua imagem de banner ou remova esta linha -->
 
@@ -6,9 +6,9 @@
 
 Sou uma programadora FullStack com 18 anos, apaixonada por tecnologia e inovação. Atualmente, estou estagiando na Winestone, onde tenho a oportunidade de aplicar e expandir meus conhecimentos em várias tecnologias.
 
-- **Nome:** [Seu Nome]
+- **Nome:** Samantha
 - **Idade:** 18 anos
-- **Pronome:** [Seu Pronome]
+- **Pronome:** Ela/Dela
 - **Empresa:** Winestone
 - **Cargo:** Estagiária
 
