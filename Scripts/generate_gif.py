@@ -1,38 +1,58 @@
 import imageio
 from datetime import datetime
-from zoneinfo import ZoneInfo
-import os
+from PIL import Image, ImageDraw, ImageFont
 
-FONT_FILE_BITMAP = "./fonts/gohufont-uni-14.pil"
-FONT_FILE_MONA = "./fonts/Inversionz.otf"
+# Função para imprimir texto de forma animada no terminal
+def print_slow(text):
+    for char in text:
+        print(char, end='', flush=True)
+        time.sleep(0.05)
 
-def main():
-    # Clear frame for fetching script
-    os.system("clear")
-    print("Fetching script")
-    print(".....")
+# Função para gerar o GIF animado
+def generate_terminal_gif():
+    # Configurações do terminal
+    terminal_width = 800
+    terminal_height = 500
+    font_size = 15
+    font_color = (255, 255, 255)  # Cor da fonte (branca)
+    background_color = (0, 0, 0)  # Cor de fundo (preta)
 
-    # Display personal information
-    print("\n\n\033[30;101mSam@GitHub\033[0m")
-    print("--------------")
-    print("\033[96mOS:     \033[93mZorinOs\033[0m")
-    print("\033[96mHost:   \033[93mThe Earth \033[94m#60.14 AU\033[0m")
-    print("\033[96mKernel: \033[93mInformation Technology/Computer Science \033[94m#IT/CS\033[0m")
+    # Lista de quadros do GIF
+    frames = []
 
-    # Calculate age
-    birth_date = datetime(2005, 11, 5, tzinfo=ZoneInfo("Europe/Lisbon"))
-    current_date = datetime.now(ZoneInfo("Europe/Lisbon"))
-    age = current_date.year - birth_date.year - ((current_date.month, current_date.day) < (birth_date.month, birth_date.day))
-    print(f"\033[96mUptime: \033[93m{age} years")
+    # Texto a ser exibido no terminal
+    text = """
+    Welcome to My Terminal!
 
-    # Display contact information
-    print("\n\n\033[30;101mContact:\033[0m")
-    print("--------------")
-    print("\033[96mEmail:      \033[93msamanthafontianha@gmail.com")
-    print("\033[96mDiscord:    \033[93msam_872")
+    Name: Sam
+    Age: 18 years old
+    Pronouns: she/her
+    Company: Winestone
+    Position: Intern
 
-    # Generate gif from terminal output
-    os.system("convert -delay 100 -loop 0 -density 150 screenshot.png output.gif")
+    Press any key to exit...
+    """
+
+    # Criação dos quadros do GIF
+    for char in text:
+        # Criação de uma nova imagem com o tamanho do terminal
+        image = Image.new("RGB", (terminal_width, terminal_height), color=background_color)
+        draw = ImageDraw.Draw(image)
+
+        # Carrega a fonte
+        font = ImageFont.truetype("./fonts/gohufont-uni-14.pil", font_size)
+
+        # Desenha o texto na imagem
+        draw.text((15, 15), text, font=font, fill=font_color)
+
+        # Converte a imagem para o formato correto
+        frame = image.convert('RGB')
+
+        # Adiciona o quadro à lista de quadros
+        frames.append(frame)
+
+    # Salva a lista de quadros como um GIF
+    imageio.mimsave('output.gif', frames, duration=0.05)
 
 if __name__ == "__main__":
-    main()
+    generate_terminal_gif()
