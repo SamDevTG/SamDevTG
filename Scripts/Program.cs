@@ -9,6 +9,8 @@ class Program
         // Define as dimensões da imagem
         int width = 800;
         int height = 600;
+        int frames = 30; // Número de frames para a animação
+        int frameDelay = 100; // Atraso entre cada frame em milissegundos
 
         // Cria uma nova imagem bitmap com as dimensões especificadas
         using (Bitmap bitmap = new Bitmap(width, height))
@@ -37,34 +39,63 @@ class Program
                     "   > ^ <"
                 };
 
-                // Desenha o terminal fictício
-                float lineHeight = 20;
-                float x = 10, y = 10;
-                foreach (string line in terminalOutput)
+                // Loop para criar os frames da animação
+                for (int i = 0; i < frames; i++)
                 {
-                    graphics.DrawString(line, font, brush, x, y);
-                    y += lineHeight;
+                    // Limpa a tela a cada frame
+                    graphics.Clear(Color.Black);
+
+                    // Desenha o terminal fictício
+                    float lineHeight = 20;
+                    float x = 10, y = 10;
+                    foreach (string line in terminalOutput)
+                    {
+                        graphics.DrawString(line, font, brush, x, y);
+                        y += lineHeight;
+                    }
+
+                    // Adiciona suas informações
+                    string[] personalInfo = {
+                        "Name: Seu Nome",
+                        "Age: 18",
+                        "Interests: Technology, Cats, Programming"
+                    };
+                    x = 500;
+                    y = 10;
+                    foreach (string info in personalInfo)
+                    {
+                        graphics.DrawString(info, font, brush, x, y);
+                        y += lineHeight;
+                    }
+
+                    // Salva o frame atual
+                    bitmap.Save($"frame_{i}.png", System.Drawing.Imaging.ImageFormat.Png);
+
+                    // Aguarda o atraso antes de passar para o próximo frame
+                    System.Threading.Thread.Sleep(frameDelay);
                 }
-
-                // Adiciona suas informações
-                string[] personalInfo = {
-                    "Name: Seu Nome",
-                    "Age: 18",
-                    "Interests: Technology, Cats, Programming"
-                };
-                x = 500;
-                y = 10;
-                foreach (string info in personalInfo)
-                {
-                    graphics.DrawString(info, font, brush, x, y);
-                    y += lineHeight;
-                }
-
-                // Salva a imagem como output.png
-                bitmap.Save("output.png", System.Drawing.Imaging.ImageFormat.Png);
-
-                Console.WriteLine("Imagem output.png gerada com sucesso.");
             }
         }
+
+        // Converte os frames em um arquivo GIF animado
+        using (ImageMagick.MagickImageCollection collection = new ImageMagick.MagickImageCollection())
+        {
+            for (int i = 0; i < frames; i++)
+            {
+                // Adiciona cada frame à coleção
+                collection.Add($"frame_{i}.png");
+            }
+
+            // Salva a coleção como um arquivo GIF animado
+            collection.Write("output.gif", ImageMagick.MagickFormat.Gif);
+        }
+
+        // Limpa os arquivos temporários
+        for (int i = 0; i < frames; i++)
+        {
+            System.IO.File.Delete($"frame_{i}.png");
+        }
+
+        Console.WriteLine("Animação output.gif gerada com sucesso.");
     }
 }
