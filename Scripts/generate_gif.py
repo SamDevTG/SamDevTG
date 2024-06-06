@@ -1,4 +1,4 @@
-import gifos
+import imageio
 from datetime import datetime
 from zoneinfo import ZoneInfo
 
@@ -54,7 +54,9 @@ def main():
     t.gen_text("\x1b[96mEmail:      \x1b[93msamanthafontianha@gmail.com", 12)
     t.gen_text("\x1b[96mDiscord:    \x1b[93msam_872", 13)
 
-    t.gen_gif()
+    t.save_frame("screenshot.png")
+    images = [imageio.imread("screenshot.png") for _ in range(10)]
+    imageio.mimsave("output.gif", images, fps=15)
 
 if __name__ == "__main__":
     main()
