@@ -1,18 +1,18 @@
-# Olá, sou Sam 👋
+# Hello, I'm Sam 👋
 
-![Banner](https://example.com/banner.jpg) <!-- Substitua pelo URL da sua imagem de banner ou remova esta linha -->
+![Banner](https://example.com/banner.jpg) <!-- Replace with the URL of your banner image or remove this line -->
 
-## Sobre Mim
+## About Me
 
-Sou uma programadora FullStack com 18 anos, apaixonada por tecnologia e inovação. Atualmente, estou estagiando na Winestone, onde tenho a oportunidade de aplicar e expandir meus conhecimentos em várias tecnologias.
+I am an 18-year-old FullStack developer passionate about technology and innovation. Currently, I am interning at Winestone, where I have the opportunity to apply and expand my knowledge in various technologies.
 
-- **Nome:** Sam
-- **Idade:** 18 anos
-- **Pronome:** Ela/Dela
-- **Empresa:** Winestone
-- **Cargo:** Estagiária
+- **Name:** Sam
+- **Age:** 18 years old
+- **Pronouns:** She/Her
+- **Company:** Winestone
+- **Position:** Intern
 
-## 🛠️ Tecnologias e Ferramentas
+## 🛠️ Technologies and Tools
 
 ![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
 ![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
@@ -25,31 +25,35 @@ Sou uma programadora FullStack com 18 anos, apaixonada por tecnologia e inovaç�
 ![Android Studio](https://img.shields.io/badge/Android_Studio-3DDC84?style=for-the-badge&logo=android-studio&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white)
 
-## 🐾 Interesses
+## 🐾 Interests
 
-- Amo gatos 🐱
-- Estudar novas tecnologias e linguagens de programação 📚
-- Apaixonada por Blahaj 🦈
-- Tecnologia e inovação 🚀
+- Love cats 🐱
+- Studying new technologies and programming languages 📚
+- Passionate about Blahaj 🦈
+- Technology and innovation 🚀
 
-## 📫 Contato
+## 🌐 Languages
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/seu-perfil)
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:seu-email@gmail.com)
+- Native: Portuguese
+- Intermediate: English
 
-## 💬 Sobre Mim
+## 📫 Contact
 
-Sou uma programadora trans apaixonada por tecnologia. Acredito no poder da diversidade e inclusão na área de TI. Sempre busco aprender e crescer, tanto profissionalmente quanto pessoalmente. Se você também é apaixonado por tecnologia ou apenas quer conversar, sinta-se à vontade para me contatar!
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/your-profile)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your-email@gmail.com)
 
-![Blahaj](https://example.com/blahaj.jpg) 
+## 💬 About Me
+
+I am a trans programmer passionate about technology. I believe in the power of diversity and inclusion in the IT field. I am always looking to learn and grow, both professionally and personally. If you are also passionate about technology or just want to chat, feel free to contact me!
+
+![Blahaj](https://example.com/blahaj.jpg) <!-- Replace with the URL of your Blahaj image or remove this line -->
 
 ---
 
-![GitHub Readme Terminal](./output.gif) 
+![GitHub Readme Terminal](./output.png) <!-- This line will be automatically updated by the GitHub Action -->
 
-⭐️ Deixe uma estrela nos meus repositórios se você achou interessante!
+⭐️ If you found this interesting, leave a star on my repositories!
 
-## 🚀 Atualização Automática do README
+## 🚀 Automatic README Update
 
-Este README é atualizado automaticamente todos os dias com as estatísticas mais recentes do meu perfil GitHub.
-
+This README is automatically updated daily with the latest statistics from my GitHub profile.
