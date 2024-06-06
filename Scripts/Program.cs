@@ -1,101 +1,64 @@
 using System;
+using System.Diagnostics;
 using System.Drawing;
-using System.Drawing.Drawing2D;
+using System.IO;
+using System.Threading;
 
 class Program
 {
+    // Função para imprimir texto de forma animada no terminal
+    static void PrintSlow(string text)
+    {
+        foreach (char c in text)
+        {
+            Console.Write(c);
+            Thread.Sleep(50);
+        }
+    }
+
+    // Função para carregar e redimensionar a imagem da bandeira trans
+    static Bitmap LoadFlagImage()
+    {
+        string flagImagePath = "trans_flag.png";
+        Bitmap flagImage = new Bitmap(flagImagePath);
+        flagImage = new Bitmap(flagImage, new Size(50, 50));
+        return flagImage;
+    }
+
+    // Função para imprimir imagem no terminal
+    static void PrintImage(Bitmap image)
+    {
+        for (int y = 0; y < image.Height; y++)
+        {
+            for (int x = 0; x < image.Width; x++)
+            {
+                Color pixelColor = image.GetPixel(x, y);
+                Console.BackgroundColor = pixelColor;
+                Console.Write(" ");
+                Console.ResetColor();
+            }
+            Console.WriteLine();
+        }
+    }
+
     static void Main(string[] args)
     {
-        // Define as dimensões da imagem
-        int width = 800;
-        int height = 600;
-        int frames = 30; // Número de frames para a animação
-        int frameDelay = 100; // Atraso entre cada frame em milissegundos
+        Console.Clear();  // Limpar o terminal
+        PrintSlow("Welcome to My Terminal!\n\n");  // Mensagem de boas-vindas
 
-        // Cria uma nova imagem bitmap com as dimensões especificadas
-        using (Bitmap bitmap = new Bitmap(width, height))
-        {
-            // Cria um objeto Graphics a partir da imagem bitmap
-            using (Graphics graphics = Graphics.FromImage(bitmap))
-            {
-                // Define o fundo da imagem como preto
-                graphics.Clear(Color.Black);
+        // Carregar e imprimir imagem da bandeira trans
+        Bitmap flagImage = LoadFlagImage();
+        PrintImage(flagImage);
 
-                // Define a fonte e as cores
-                Font font = new Font("Courier New", 12);
-                Brush brush = new SolidBrush(Color.White);
-                Pen pen = new Pen(Color.White);
+        // Imprimir informações pessoais
+        Console.WriteLine("\n\nName: Your Name");
+        Console.WriteLine("Age: 18 years old");
+        Console.WriteLine("Pronouns: she/her");
+        Console.WriteLine("Company: Winestone");
+        Console.WriteLine("Position: Intern");
 
-                // Define o terminal fictício
-                string[] terminalOutput = {
-                    "Welcome to My Terminal",
-                    "",
-                    "> ls",
-                    "output.png   README.md   script.cs",
-                    "",
-                    "> cat",
-                    "   /\\_/\\",
-                    "  ( o.o )",
-                    "   > ^ <"
-                };
-
-                // Loop para criar os frames da animação
-                for (int i = 0; i < frames; i++)
-                {
-                    // Limpa a tela a cada frame
-                    graphics.Clear(Color.Black);
-
-                    // Desenha o terminal fictício
-                    float lineHeight = 20;
-                    float x = 10, y = 10;
-                    foreach (string line in terminalOutput)
-                    {
-                        graphics.DrawString(line, font, brush, x, y);
-                        y += lineHeight;
-                    }
-
-                    // Adiciona suas informações
-                    string[] personalInfo = {
-                        "Name: Seu Nome",
-                        "Age: 18",
-                        "Interests: Technology, Cats, Programming"
-                    };
-                    x = 500;
-                    y = 10;
-                    foreach (string info in personalInfo)
-                    {
-                        graphics.DrawString(info, font, brush, x, y);
-                        y += lineHeight;
-                    }
-
-                    // Salva o frame atual
-                    bitmap.Save($"frame_{i}.png", System.Drawing.Imaging.ImageFormat.Png);
-
-                    // Aguarda o atraso antes de passar para o próximo frame
-                    System.Threading.Thread.Sleep(frameDelay);
-                }
-            }
-        }
-
-        // Converte os frames em um arquivo GIF animado
-        using (ImageMagick.MagickImageCollection collection = new ImageMagick.MagickImageCollection())
-        {
-            for (int i = 0; i < frames; i++)
-            {
-                // Adiciona cada frame à coleção
-                collection.Add($"frame_{i}.png");
-            }
-
-            // Salva a coleção como um arquivo GIF animado
-            collection.Write("output.gif", ImageMagick.MagickFormat.Gif);
-        }
-
-        // Limpa os arquivos temporários
-        for (int i = 0; i < frames; i++)
-        {
-            System.IO.File.Delete($"frame_{i}.png");
-        }
-
-        Console.WriteLine("Animação output.gif gerada com sucesso.");
+        // Aguardar para que o usuário possa ver a saída antes de fechar o terminal
+        Console.WriteLine("\nPress any key to exit...");
+        Console.ReadKey();
     }
 }
