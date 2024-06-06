@@ -51,7 +51,7 @@ class Program
         PrintImage(flagImage);
 
         // Imprimir informações pessoais
-        Console.WriteLine("\n\nName: Your Name");
+        Console.WriteLine("\n\nName: Sam");
         Console.WriteLine("Age: 18 years old");
         Console.WriteLine("Pronouns: she/her");
         Console.WriteLine("Company: Winestone");
