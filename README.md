@@ -1,6 +1,6 @@
 # Hello, I'm Sam 👋
 
-![Banner](https://github.com/SamDevTG/SamDevTG/assets/61922082/16b7a30d-ecc4-454b-a814-cd40a72d62b0)
+![Banner](https://i.imgur.com/banner.jpg?size=xl) <!-- Replace with the URL of your banner image or remove this line -->
 
 ## About Me
 
