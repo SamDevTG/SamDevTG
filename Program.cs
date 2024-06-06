@@ -3,26 +3,35 @@ using System.Drawing;
 
 class Program
 {
-    static void Main()
+    static void Main(string[] args)
     {
+        // Configurações da imagem
         int width = 800;
         int height = 200;
-        string text = "Olá, sou [Seu Nome] 👋";
-        string filePath = "output.png";
+        string outputPath = "output.png";
 
+        // Cria uma nova imagem
         using (Bitmap bitmap = new Bitmap(width, height))
         {
             using (Graphics graphics = Graphics.FromImage(bitmap))
             {
+                // Define a cor de fundo
                 graphics.Clear(Color.White);
-                Font font = new Font("Arial", 40, FontStyle.Bold);
+
+                // Define as fontes
+                Font font = new Font("Arial", 24, FontStyle.Bold);
                 Brush brush = Brushes.Black;
-                PointF point = new PointF(10, 50);
 
+                // Adiciona texto na imagem
+                string text = "Atualização Automática do README";
+                PointF point = new PointF(10, 80);
                 graphics.DrawString(text, font, brush, point);
-            }
 
-            bitmap.Save(filePath);
+                // Salva a imagem
+                bitmap.Save(outputPath);
+            }
         }
+
+        Console.WriteLine($"Imagem salva em: {outputPath}");
     }
 }
