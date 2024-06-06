@@ -1,4 +1,4 @@
-# Hello, I'm [Your Name] 👋
+# Hello, I'm Sam 👋
 
 ![Banner](https://example.com/banner.jpg) <!-- Replace with the URL of your banner image or remove this line -->
 
