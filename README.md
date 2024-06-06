@@ -1,6 +1,6 @@
 # Hello, I'm Sam 👋
 
-![Banner](https://example.com/banner.jpg) <!-- Replace with the URL of your banner image or remove this line -->
+![Banner](https://github.com/SamDevTG/SamDevTG/assets/61922082/ca999873-0efb-4f46-af77-95c81a2fa0ad)
 
 ## About Me
 
@@ -8,7 +8,7 @@ I am an 18-year-old FullStack developer passionate about technology and innovati
 
 - **Name:** Sam
 - **Age:** 18 years old
-- **Pronouns:** She/Her
+- **Pronouns:** she/her
 - **Company:** Winestone
 - **Position:** Intern
 
@@ -46,7 +46,7 @@ I am an 18-year-old FullStack developer passionate about technology and innovati
 
 I am a trans programmer passionate about technology. I believe in the power of diversity and inclusion in the IT field. I am always looking to learn and grow, both professionally and personally. If you are also passionate about technology or just want to chat, feel free to contact me!
 
-![Blahaj](https://example.com/blahaj.jpg) <!-- Replace with the URL of your Blahaj image or remove this line -->
+![Blahaj](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ffraghero.com%2Fwp-content%2Fuploads%2F2022%2F03%2Fb8a532cc-cover3.jpg&f=1&nofb=1&ipt=37989ddbd92656b5330a6424225450a326da546f43275e138d0bc2b4ef0df19b&ipo=images) <!-- Replace with the URL of your Blahaj image or remove this line -->
 
 ---
 

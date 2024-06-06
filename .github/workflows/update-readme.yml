@@ -11,25 +11,20 @@ permissions:
 jobs:
   update-readme:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
-
+        with:
+          lfs: true
       - name: Set up .NET
         uses: actions/setup-dotnet@v3
         with:
-          dotnet-version: '7.0.x'
+          dotnet-version: '7.0.x' # Use the required .NET version
 
       - name: Build and run C# script
         run: |
-          cd scripts
-          dotnet new console -n UpdateReadme
-          mv Program.cs UpdateReadme/
-          cd UpdateReadme
-          dotnet add package System.Drawing.Common
-          dotnet build
-          dotnet run
-          mv output.png ../../output.png
+          dotnet new console -o app -n GifUpdate
+          mv Scripts/Program.cs app/Program.cs
+          dotnet run --project app
 
       - name: Update readme
         run: |
@@ -41,6 +36,6 @@ jobs:
 
           git checkout --orphan "$branch_name"
           git rm -rf .
-          git add ../output.png
+          git add output.png
           git -c "user.name=bot" -c "user.email=bot@github.com" commit -m "Automatically updated on $(date)"
           git push -u -f origin $branch_name
