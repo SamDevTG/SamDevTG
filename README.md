@@ -1,6 +1,6 @@
 # Hello, I'm Sam 👋
 
-![Banner](https://example.com/banner.jpg](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.bSQ224givEAGd4RRR6Hj2QHaDE%26pid%3DApi&f=1&ipt=26355729528893b11a45c93c93d88d17bfcc9fe8c75a2be1084055bb1f9cd16f&ipo=images) <!-- Replace with the URL of your banner image or remove this line -->
+![Banner](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.bSQ224givEAGd4RRR6Hj2QHaDE%26pid%3DApi&f=1&ipt=26355729528893b11a45c93c93d88d17bfcc9fe8c75a2be1084055bb1f9cd16f&ipo=images) <!-- Replace with the URL of your banner image or remove this line -->
 
 ## About Me
 
