@@ -1,38 +1,70 @@
 using System;
 using System.Drawing;
+using System.Drawing.Drawing2D;
 
 class Program
 {
     static void Main(string[] args)
     {
-        // Image settings
+        // Define as dimensões da imagem
         int width = 800;
-        int height = 200;
-        string outputPath = "output.png";
+        int height = 600;
 
-        // Create a new image
+        // Cria uma nova imagem bitmap com as dimensões especificadas
         using (Bitmap bitmap = new Bitmap(width, height))
         {
+            // Cria um objeto Graphics a partir da imagem bitmap
             using (Graphics graphics = Graphics.FromImage(bitmap))
             {
-                // Set background color
-                graphics.Clear(Color.White);
+                // Define o fundo da imagem como preto
+                graphics.Clear(Color.Black);
 
-                // Set fonts
-                Font font = new Font("Arial", 24, FontStyle.Bold);
-                Brush brush = Brushes.Black;
+                // Define a fonte e as cores
+                Font font = new Font("Courier New", 12);
+                Brush brush = new SolidBrush(Color.White);
+                Pen pen = new Pen(Color.White);
 
-                // Add text to image
-                string text = "Automatic README Update";
-                SizeF textSize = graphics.MeasureString(text, font);
-                PointF point = new PointF((width - textSize.Width) / 2, (height - textSize.Height) / 2);
-                graphics.DrawString(text, font, brush, point);
+                // Define o terminal fictício
+                string[] terminalOutput = {
+                    "Welcome to My Terminal",
+                    "",
+                    "> ls",
+                    "output.png   README.md   script.cs",
+                    "",
+                    "> cat",
+                    "   /\\_/\\",
+                    "  ( o.o )",
+                    "   > ^ <"
+                };
 
-                // Save the image
-                bitmap.Save(outputPath);
+                // Desenha o terminal fictício
+                float lineHeight = 20;
+                float x = 10, y = 10;
+                foreach (string line in terminalOutput)
+                {
+                    graphics.DrawString(line, font, brush, x, y);
+                    y += lineHeight;
+                }
+
+                // Adiciona suas informações
+                string[] personalInfo = {
+                    "Name: Seu Nome",
+                    "Age: 18",
+                    "Interests: Technology, Cats, Programming"
+                };
+                x = 500;
+                y = 10;
+                foreach (string info in personalInfo)
+                {
+                    graphics.DrawString(info, font, brush, x, y);
+                    y += lineHeight;
+                }
+
+                // Salva a imagem como output.png
+                bitmap.Save("output.png", System.Drawing.Imaging.ImageFormat.Png);
+
+                Console.WriteLine("Imagem output.png gerada com sucesso.");
             }
         }
-
-        Console.WriteLine($"Image saved at: {outputPath}");
     }
 }
