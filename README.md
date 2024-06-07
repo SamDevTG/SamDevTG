@@ -51,4 +51,4 @@ I am a trans programmer passionate about technology. I believe in the power of d
 
 ## 🚀 Automatic README Update
 
-This README is automatically updated daily with the latest statistics from my GitHub profile.
+[![Sam's GitHub stats](https://github-readme-stats.vercel.app/api?username=SamDevTG&show_icons=true&theme=radical)](https://github.com/SamDevTG)
