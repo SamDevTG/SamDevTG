@@ -51,4 +51,4 @@ I am a trans programmer passionate about technology. I believe in the power of d
 
 ## 🚀 Automatic README Update
 
-[![Sam's GitHub stats](https://github-readme-stats.vercel.app/api?username=SamDevTG&show_icons=true&theme=radical)](https://github.com/SamDevTG) [![Top Linguagens](https://github-readme-stats.vercel.app/api/top-langs/?username=SamDevTG&layout=compact)](https://github.com/SamDevTG/github-readme-stats)
+![Sam GitHub stats](https://github-readme-stats.vercel.app/api?username=SamDevTG&show_icons=true&theme=transparent) [![Top Linguagens](https://github-readme-stats.vercel.app/api/top-langs/?username=SamDevTG&layout=compact)](https://github.com/SamDevTG/github-readme-stats)
