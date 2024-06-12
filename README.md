@@ -45,18 +45,17 @@ I am an 18-year-old FullStack developer passionate about technology and innovati
 
 I am a trans programmer passionate about technology. I believe in the power of diversity and inclusion in the IT field. I am always looking to learn and grow, both professionally and personally. If you are also passionate about technology or just want to chat, feel free to contact me!
 
-![GitHub Readme Terminal](./output.gif) <!-- This line will be automatically updated by the GitHub Action -->
-
 ⭐️ If you found this interesting, leave a star on my repositories!
 
-## 🚀 Automatic README Update
+<div style="display: flex; justify-content: space-between; align-items: center; gap: 20px;">
+  <picture style="width: 50%;">
+    <source srcset="https://github-readme-stats.vercel.app/api?username=SamDevTG&show_icons=true&theme=dark" media="(prefers-color-scheme: dark)" />
+    <source srcset="https://github-readme-stats.vercel.app/api?username=SamDevTG&show_icons=true" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
+    <img src="https://github-readme-stats.vercel.app/api?username=SamDevTG&show_icons=true" alt="GitHub Stats" style="width: 100%;" />
+  </picture>
+  <picture style="width: 50%;">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SamDevTG&langs_count=5&theme=dark" alt="Top Languages" style="width: 100%;" />
+  </picture>
+</div>
 
-![Sam GitHub stats](https://github-readme-stats.vercel.app/api?username=SamDevTG&show_icons=true&theme=dracula) 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=SamDevTG&langs_count=5)
 
-<a href="https://github.com/SamDevTG/github-readme-stats">
-  <img height=200 align="center" src="[https://github-readme-stats.vercel.app/api?username=SamDevTG](https://github-readme-stats.vercel.app/api?username=SamDevTG&show_icons=true&theme=dracula)" />
-</a>
-<a href="https://github.com/SamDevTG/convoychat">
-  <img height=200 align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=SamDevTG&layout=compact&langs_count=5&card_width=320" />
-</a>
