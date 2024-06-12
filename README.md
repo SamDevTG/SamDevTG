@@ -52,4 +52,11 @@ I am a trans programmer passionate about technology. I believe in the power of d
 ## 🚀 Automatic README Update
 
 ![Sam GitHub stats](https://github-readme-stats.vercel.app/api?username=SamDevTG&show_icons=true&theme=dracula) 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=SamDevTG&langs_count=8)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=SamDevTG&langs_count=5)
+
+<a href="https://github.com/anuraghazra/github-readme-stats">
+  <img height=200 align="center" src="https://github-readme-stats.vercel.app/api?username=SamDevTG" />
+</a>
+<a href="https://github.com/anuraghazra/convoychat">
+  <img height=200 align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=SamDevTG&layout=compact&langs_count=5&card_width=320" />
+</a>
