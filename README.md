@@ -57,5 +57,3 @@ I am a trans programmer passionate about technology. I believe in the power of d
     <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SamDevTG&langs_count=5&theme=dark" alt="Top Languages" style="width: 100%;" />
   </picture>
 </div>
-
-
