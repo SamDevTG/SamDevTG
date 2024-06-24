@@ -38,7 +38,7 @@ I am an 18-year-old FullStack developer passionate about technology and innovati
 ## 📫 Contact
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sam-fontainha-4581482a1/)
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:samanthafontianha@gmail.com)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:samanthafontainha@gmail.com)
 [![Discord](https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/invite/sam_872)
 
 ## 💬 About Me
@@ -47,13 +47,5 @@ I am a trans programmer passionate about technology. I believe in the power of d
 
 ⭐️ If you found this interesting, leave a star on my repositories!
 
-<div style="display: flex; justify-content: space-between; align-items: center; gap: 20px;">
-  <picture style="width: 50%;">
-    <source srcset="https://github-readme-stats.vercel.app/api?username=SamDevTG&show_icons=true&theme=dark" media="(prefers-color-scheme: dark)" />
-    <source srcset="https://github-readme-stats.vercel.app/api?username=SamDevTG&show_icons=true" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
-    <img src="https://github-readme-stats.vercel.app/api?username=SamDevTG&show_icons=true" alt="GitHub Stats" style="width: 100%;" />
-  </picture>
-  <picture style="width: 50%;">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SamDevTG&langs_count=5&theme=dark" alt="Top Languages" style="width: 100%;" />
-  </picture>
-</div>
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=SamDevTG&show_icons=true&theme=dark)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=SamDevTG&langs_count=5&theme=dark)
