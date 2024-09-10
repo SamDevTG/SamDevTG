@@ -4,11 +4,9 @@
 
 I am an 18-year-old FullStack developer passionate about technology and innovation. Currently, I am interning at Winestone, where I have the opportunity to apply and expand my knowledge in various technologies.
 
-- **Name:** Sam
+- **Name:** Samantha Fontainha
 - **Age:** 18 years old
 - **Pronouns:** she/her
-- **Company:** Winestone
-- **Position:** Intern
 
 ## 🛠️ Technologies and Tools
 
